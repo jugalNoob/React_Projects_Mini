@@ -1,0 +1,136 @@
+
+1::Components: Reusable, independent pieces of UI, usually in the form of functions or classes,
+ that return JSX to render UI elements.
+
+2::JSX (JavaScript XML): A syntax extension of JavaScript that allows you to write HTML-like
+ code directly within JavaScript.
+
+3::Curly Braces {}: Used in JSX to embed JavaScript expressions within markup.
+
+4::Fragments: A way to group multiple elements without adding extra nodes to the DOM
+ (<React.Fragment> or shorthand <>...</>).
+
+5::Props: Short for properties, they are inputs passed to components to control
+ their behavior or display dynamic content.
+
+6::Children: A special prop that represents the content passed between
+ a component's opening and closing tags.
+
+7::Keys: Used to uniquely identify elements when rendering lists, 
+helping React optimize re-renders.
+
+8::Rendering: The process by which React translates
+ components into DOM elements to display on the screen.
+
+9::Event Handling: Managing user interactions, such as
+ clicks or input, using event listeners in JSX.
+
+10::State: An object that holds dynamic data in a component,
+ allowing it to change over time and trigger re-renders.
+
+10::Controlled Components: Components where the form data is 
+handled by React’s state rather than the DOM itself.
+
+11::Hooks: Functions that allow you to manage state and side 
+effects in functional components (useState, useEffect, etc.).
+
+13::Purity: React components should be pure functions, meaning they
+ return the same output for the same input without side effects.
+
+14::Strict Mode: A tool for highlighting potential problems in an
+ application, enforcing better practices during development.
+
+15::Effect: Using useEffect to handle side effects like data fetching
+ or manual DOM manipulation in functional components.
+
+16::Refs: A way to directly access and manipulate DOM elements or 
+React components without triggering a re-render.
+
+17::Context: A method to pass data through the component tree 
+without needing to pass props down manually at every level.
+
+18::Suspense: A component used to display a fallback while waiting 
+for some asynchronous operation, such as lazy loading components.
+
+19::Error Boundaries: Components that catch JavaScript errors in their
+ child components' rendering phase and display a fallback UI instead of crashing.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+0.1 All React Hook Explained ?
+
+state Management ::::: ------>
+ useState
+ useReducer
+ useSyncExternalStore
+
+
+Ref Hooks ::::: ---->
+6:07 - useRef
+7:04 - useImperativeHandle
+
+
+Effect Hooks ::: ----> 
+
+3:34 - useEffect
+5:05 - useLayoutEffect
+5:45 - useInsertionEffect
+
+
+Context Hooks ::: ------->
+
+useContext  
+
+
+Performance Hook ::--->
+7:41 - useMemo
+8:18 - useCallback
+
+
+Random Hook :::: --> 
+
+10:51 - useDebugValue
+11:12 - useId
+
+
+Transition Hooks ::::::: ------->
+
+9:21 - useTransition
+10:15 - useDeferredValue
+
+
+
+
+
+
+
+
+
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
+0:00 - Intro
+0:26 - How to use React 19
+0:38 - React compiler
+0:58 - No memoization hooks
+1:38 - No forwardRef
+2:07 - use() hook
+2:27 - Fetch data with useEffect/use
+3:02 - Use context with useContext/use
+3:32 - Directives
+3:53 - Actions
+4:12 - Client Actions
+4:37 - useFormStatus() hook
+5:12 - useFormState() hook
+6:12 - useOptimistic() hook
+7:07 - Conclusion
+
+
+
+
+
+
+
