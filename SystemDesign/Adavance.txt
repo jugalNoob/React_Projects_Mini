@@ -52,3 +52,47 @@ Databases (48:05): Discusses database design and scaling strategies such
 as sharding, replication, ACID (Atomicity, Consistency, Isolation, Durability)
  properties, and vertical vs. horizontal scaling.
  
+
+
+ System desgin the database design and scaling strategies ::::::::::
+
+
+ 1::vertical scaling 
+
+ 2::horizontal scaling
+
+ 3::load balancers 
+
+ 4::content delivery network 
+
+ 5::caching 
+
+ 6::ip address  
+
+ 7::Tcp / IP
+
+ 8::Ip address 
+
+ 9::Domain Name system 
+
+ 10::Http 
+
+ 11:Rest 
+
+ 12::GraphQL
+
+ 13::gRpc
+
+ 14::websocket 
+
+ 15::sql 
+
+ 16::ACID 
+
+ 17::NoSql 
+
+ 18::Sharding 
+
+ 19::Replication 
+
+ 

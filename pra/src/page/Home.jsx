@@ -54,6 +54,8 @@ console.log(id)
 
 <br />
 <NavLink to="/calls">useState</NavLink>
+<br />
+<NavLink to="/form">from</NavLink>
 <h1>karans hsrma</h1>
     </div>
   )

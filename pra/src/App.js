@@ -88,7 +88,7 @@ errorElement:<Error/>
 
 {
 
-  path:"form",
+  path:"/form",
   element:<Form/>
 },
 {
